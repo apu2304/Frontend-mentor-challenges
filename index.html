@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+      --alice-blue: #D5E1EFff;
+      --white: #FFFFFFff;
+      --cadet-gray: #92989Fff;
+      --gunmetal: #1F2D3Cff;
+    }
+    body{
+      background-color: var(--alice-blue);
+      display: grid;
+      place-items: center;
+      grid-template-rows: auto;
+      height: 100vh; 
+      margin: 0;
+    }
+    body .attribution{
+      display: block;
+    }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      display: block;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .card {
+      max-width: 350px;
+      height: auto;
+      padding: 20px;
+      background-color: white;
+      position: relative;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 5px 5px 8px rgba();
+    }
+
+    .card img {
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 20px ;
+    }
+    .top{
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--gunmetal);
+      font-weight: 600;
+      font-size: 1.5em;
+    }
+    .bottom{
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--cadet-gray);
+      size: 0.8em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="images/image-qr-code.png" alt="">
+    <p class="top"> Improve your front-end skills by building projects</p>
+    <p class="bottom">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Arpita Paul</a>.
+  </div>
+</body>
+
+</html>
